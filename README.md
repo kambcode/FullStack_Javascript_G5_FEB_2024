@@ -2,8 +2,8 @@
 
 Antes de empezar puedes configurar tu setup inicial de forma muy sencilla para poder trabajar como todo un desarollador, por favor sigue los siguientes pasos:
 
-- Instalar **VSCode** (https://code.visualstudio.com/download) o tu editor de código de preferencia e instalar extensiones que te permitan generar código HTML de manera rápida y sencilla como por ejemplo: **HTML snippets**, **HTML preview** para VSCode
 - Descargar e instalar **Git** (https://git-scm.com/download/win) nuestra herramienta de control de versiones
+- Instalar **VSCode** (https://code.visualstudio.com/download) o tu editor de código de preferencia e instalar extensiones que te permitan generar código HTML de manera rápida y sencilla como por ejemplo: **HTML snippets**, **HTML preview** para VSCode
 - Crea una cuenta en **GitHub** para poder tener acceso al repositorio de la clase (https://github.com/)
 - Configura Visual Studio Code para que se conecte a tu cuenta de GitHub y ahora clona nuestro proyecto de clase
 
