@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Comentarios en hojas de estilos  */
+        div {
+            background-color: yellow;
+        }
+
+        div {
+            background-color: red;
+            width: 400px;
+        }
+    </style>
+    <link rel="stylesheet" href="./hojaestilos.css">
+    <style>
+        p {
+            background-color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Mi titulo uno</h1>
+    <!-- div es un elemento de bloque que contiene saltos de linea al inicio y al final -->
+    hola <div class="color_amarillo">gdfgdg</div> a la tercera clase
+    <!-- div es un elemento contenedor -->
+    <div style="background-color: blue; width: 200px; margin: auto; text-align: center;">
+        <h2 class="color_amarillo fuente_diferente">MI perfil</h2>
+        <p>Soy desarrollador web</p>
+    </div>
+    <!-- contenido centrado con tabla -->
+    <table style="width: 100%;">
+        <tr>
+            <th align="center">Titulo de la columna</th>
+        </tr>
+    </table>
+    <!-- Estilos en linea -->
+    <div style="background-color: green; width: 400px;">
+        Este es el contenido
+    </div>
+    <!-- Estilos Internos -->
+    <div class="color_verde">
+        Este es el contenido
+    </div>
+    <p id="parrafo_aqua">Mi contenido color rojo</p>
+    <p id="parrafo_aqua_dos">Mi contenido color rojo 2</p>
+
+    <form action="register.php" method="get">
+        <label for="usuario">Usuario</label>
+        <input type="text" id="usuario">
+    </form>
+</body>
+
+</html>

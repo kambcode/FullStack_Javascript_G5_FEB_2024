@@ -1,0 +1,70 @@
+/* comentario de estilos */
+div {
+  background-color: black;
+  color: white;
+}
+/* Elmentos selector en caso siguiente es la etiqueta "p", elemento agrupador {} y finalmente 
+el elemnto de declaración background-color: red; */
+p {
+  background-color: red;
+  color: white;
+}
+
+p {
+  background-color: blue;
+}
+
+/* 
+  Selectores de etiqueta o de elemntos HTML 
+  quiero aplicar a todos los formularios(<form>) un estilo  
+*/
+form {
+  border: 2px solid #6066FF;
+  padding: 50px;
+  border-radius: 20px;
+  /* border-style: solid;
+  border-width: 2px;
+  border-color: #6066FF; */
+}
+
+/* 
+  Selectores de etiqueta o de elemntos HTML 
+  quiero aplicar a todos los imagenes(<img>) un estilo  
+*/
+img {
+  width: 300px;
+  height: 200px;
+}
+h1 {
+  color: brown;
+}
+
+/* Selectore de clase, hace referenciar al atributo class de los elementos 
+html en los que pongamos esa clase(.) */
+
+.color_amarillo {
+  color: black;
+}
+
+.color_verde {
+  color: green;
+}
+
+.fuente_diferente {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial;
+}
+
+/* Selector de id, hace referencia al atributo id de los elmentos HTML en los
+pongamos este atributo id(#) */
+
+#parrafo_aqua {
+  background-color: aqua;
+}
+
+#parrafo_aqua_dos {
+  background-color: aqua;
+}
+
+body {
+  background-color: yellow;
+}
