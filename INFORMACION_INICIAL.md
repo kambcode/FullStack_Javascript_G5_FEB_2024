@@ -23,3 +23,4 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 - 05/02/2024 Introducción a HTML https://youtu.be/WYsa7mEHU58
 - 07/02/2024 Repaso y etiquetas de formulario y de tablas https://youtu.be/OOzev1X7GlM
 - 09/02/2024 Repaso y etiquetas de formulario y de tablas https://youtu.be/ixWdQHPCNFA
+- 12/02/2024 Introduccion CSS https://youtu.be/5kDI_vZkdas
