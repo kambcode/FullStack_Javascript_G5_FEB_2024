@@ -22,7 +22,7 @@ En la generación de estilos hay infinitas maneras de llegar a un mismo resultad
    - El body debe tener un color de fondo negro 
    ```css
    body { 
-      color: black; 
+      background-color: black; 
    }
    ```
    - Todos los input tiene un borde sólido `border-style: solid;` de 2px de ancho  `border-width: 2px;` y de color `border-color: #9CA6FF;`
