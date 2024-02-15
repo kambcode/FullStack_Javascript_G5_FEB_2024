@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    /* selectores de id #*/
+    #idelemento {
+      color: black;
+    }
+
+    /* selectores de clase . */
+    .nombredelaclase {
+      color: black;
+    }
+
+    /* selectores de etiqueta */
+    div {
+      border: 1px solid black;
+    }
+
+    /* selector global * */
+    * {
+      /* recomendacion para trabajar el box-model */
+      box-sizing: border-box;
+    }
+
+    /* Selector combinador de hijos > */
+    div>h1 {
+      color: red;
+    }
+
+    /* Selector combinador de descendientes */
+    div p {
+      color: yellow;
+    }
+
+    div>p {
+      color: green;
+    }
+
+    /* Selector cominador de hermanos + */
+    h1+p {
+      font-weight: 900;
+    }
+
+    /* Selector cominador de hermanos ~ */
+    h1~p {
+      font-style: italic;
+    }
+
+    /* Selector atributos [] */
+    [colorazul="on"] {
+      color: blue;
+    }
+
+    /* selectores por pseudoelemtos :: */
+    #parrafolineanegrilla::first-line {
+      font-weight: 900;
+    }
+
+    /* selectores por pseudoclases : */
+    button:hover {
+      font-size: 60px;
+      color: green;
+    }
+
+    #boxmodel {
+      background-color: green;
+      /* Estilos asociados al concepto del box-model */
+      margin: 10px 0px;
+      /* 
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 0px;
+        margin-right: 0px; */
+      border: 5px solid aqua;
+      /* 
+        border-top: 5px;
+        border-bottom: 5px;
+        border-left: 5px;
+        border-right: 5px; 
+        border-style: solid;
+        border-color: aqua;*/
+      padding: 5px;
+      /* padding-top: 5px;
+      padding-bottom: 5px;
+      padding-left: 5px;
+      padding-right: 5px; */
+      height: 60px;
+      /* width: 100px; */
+    }
+
+    #paddingporlado {
+      background-color: rgb(255, 0, 0);
+      color: white;
+      padding: 5px 10px 15px 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <div>
+    <h1>Hola Mundo!!!</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis asperiores itaque distinctio, a voluptate
+      cupiditate. Ipsum similique dolorum nobis earum aperiam incidunt quas quo, est facere assumenda laboriosam ullam
+      eaque.</p>
+    <p id="parrafolineanegrilla">
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+      Aliquam mollitia porro doloribus nam,blanditiis id provident voluptatibus
+      distinctio tempora eum repellat adipisci similique consequatur autem,
+      dignissimos doloremque illum dolorem atque!
+    </p>
+    <h3 colorazul="on">
+      este es el texto del titulo
+      <p>parrafo anidado</p>
+    </h3>
+    <button>Presione aqui</button>
+  </div>
+  <!-- box-model -->
+  <div id="boxmodel">
+    <mark>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo alias, libero pariatur, quaerat expedita
+      commodi dolor odit a, ratione ad dolorem. Voluptatibus, et delectus deleniti nam error similique porro
+      quasi.</mark>
+  </div>
+  <div id="paddingporlado">
+    <mark>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates sequi enim repellat cupiditate! Eaque
+      quaerat dignissimos deleniti. Omnis consectetur voluptate rem harum tenetur sit consequuntur deserunt, magnam
+      cumque accusantium eveniet.</mark>
+  </div>
+</body>
+
+</html>
