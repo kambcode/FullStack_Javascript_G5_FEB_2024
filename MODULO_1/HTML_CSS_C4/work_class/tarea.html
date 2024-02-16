@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    div.relative {
+      position: relative;
+      width: 400px;
+      height: 200px;
+      border: 3px solid #73ad21;
+    }
+
+    div.absolute {
+      position: absolute;
+      margin-left: 100px;
+      /* top: 80px;
+      right: 0; */
+      width: 200px;
+      height: 100px;
+      border: 3px solid #73ad21;
+    }
+
+    body {
+      font-family: sans-serif;
+      color: #252EFF;
+      font-weight: 700;
+      font-size: 24px;
+    }
+
+    input {
+      border-style: solid;
+      border-width: 2px;
+      border-color: #6066FF;
+      border-radius: 10px;
+      width: 350px;
+      height: 40px;
+    }
+
+    .btn_register {
+      color: white;
+      font-size: 15px;
+      background-color: #252EFF;
+      border-radius: 20px;
+    }
+
+    .formulario {
+      width: 400px;
+      margin: auto;
+    }
+
+    /* DARK */
+    /* body {
+      background-color: black;
+      color: white;
+    }
+
+    input {
+      border-color: #9CA6FF;
+      background-color: black;
+    }
+
+    ::placeholder {
+      color: white;
+    }
+
+
+    .btn_register {
+      background-color: #8B54FF;
+      border-color: #9CA6FF;
+    } */
+  </style>
+</head>
+
+<body>
+  <div class="relative">
+    <div class="absolute"></div>
+  </div>
+  <div class="formulario">
+    <h1>Register</h1>
+    <form action="">
+      <input type="text" name="full_name" id="full_name" placeholder="Full name"> <br><br>
+      <input type="email" name="email" id="email" placeholder="E-mail"><br><br>
+      <input type="text" name="phone" id="phone" placeholder="Phone"><br><br>
+      <input type="password" name="password" id="password" placeholder="Password"><br><br>
+      <input type="password" name="password_confirm" id="password_confirm" placeholder="Confirm password"><br><br><br>
+      <input class="btn_register" type="submit" value="Register">
+    </form>
+  </div>
+
+
+</body>
+
+</html>
