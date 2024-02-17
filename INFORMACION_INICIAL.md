@@ -24,4 +24,5 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 - 07/02/2024 Repaso y etiquetas de formulario y de tablas https://youtu.be/OOzev1X7GlM
 - 09/02/2024 Repaso y etiquetas de formulario y de tablas https://youtu.be/ixWdQHPCNFA
 - 12/02/2024 Introduccion CSS https://youtu.be/5kDI_vZkdas
-- 12/02/2024 Selectores, box-model https://youtu.be/RbczRywCBGE
+- 14/02/2024 Selectores, box-model https://youtu.be/RbczRywCBGE
+- 16/02/2024 Flujo HTML, posicionamiento, background https://youtu.be/xh1WMxVnl_I
