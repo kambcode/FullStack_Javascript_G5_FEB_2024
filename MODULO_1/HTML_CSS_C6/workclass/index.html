@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .contenedor {
+      background-color: aqua;
+      position: relative;
+      width: 500px;
+      height: 500px;
+      top: 0px;
+      left: 0px;
+      /* right: 50px;
+      bottom: 50px; */
+      /* margin: auto; */
+      /* margin-top: 10px;
+      margin-left: 10px;
+      margin-bottom: 20px; */
+    }
+
+    #caja1 {
+      position: absolute;
+      background-color: red;
+      width: 500px;
+      height: 200px;
+    }
+
+    #caja2 {
+      position: absolute;
+      /* rgba pueden tabajar la opacidad sin afectar el contenido */
+      background-color: green;
+      /* valores entre 0 y 1 para la opacidad */
+      /* opacity: 1; */
+      top: 140px;
+      left: 180px;
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+    }
+
+    #caja3 {
+      position: absolute;
+      text-align: center;
+      border: 5px solid blue;
+      background-image: url('./../homework/tablero_ajedrez.jpg');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      width: 498px;
+      height: 198px;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Este es mi titulo</h1>
+  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus perspiciatis nobis earum molestias accusantium
+    voluptate at. Minus ad non quam sunt iure aperiam! Iusto laudantium aperiam blanditiis possimus, ratione eaque?</p>
+  <h2>Es es tun subtitulos</h2>
+  <div class="contenedor">
+    <div id="caja1">
+      Soy la caja 1
+    </div>
+    <div id="caja2">
+      Soy la caja verde
+    </div>
+    <div id="caja3">
+      Soy la caja 3
+    </div>
+  </div>
+  <h3>titulo de 3r nivel</h3>
+</body>
+
+</html>
