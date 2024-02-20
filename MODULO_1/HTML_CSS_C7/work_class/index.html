@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    /* Flujo natural */
+    .contenedor_flujo_natural {
+      border: 5px solid green;
+      padding: 10px;
+    }
+
+    .hijos_flujo_natural {
+      border: 5px solid blue;
+    }
+
+    /* flujo con posicionamiento */
+    .contenedor_position {
+      border: 5px solid green;
+      padding: 10px;
+      position: relative;
+      /* top: 100px; */
+      height: 120px;
+    }
+
+    .hijos_position {
+      border: 5px solid blue;
+      position: absolute;
+    }
+
+    .desplazar_der_167px {
+      left: 167px;
+    }
+
+    .desplazar_der_334px {
+      left: 334px;
+    }
+
+    /* Flujo con float */
+    .contenedor_float {
+      border: 5px solid green;
+      padding: 10px;
+      width: 100%;
+      overflow: auto;
+    }
+
+    .hijos_float {
+      border: 5px solid blue;
+      width: 30%;
+      float: left;
+    }
+
+    /* Flujo con inline-block */
+    .contenedor_inline-block {
+      border: 5px solid green;
+      padding: 10px;
+    }
+
+    .hijos_inline-block {
+      border: 5px solid blue;
+      width: 30%;
+      display: inline-block;
+    }
+
+    /* Flujo flex */
+    .flex-container {
+      border: 5px solid green;
+      height: 500px;
+      /* declaración principal para inciar el flujo de flex */
+      display: flex;
+      flex-direction: row;
+      /* justify-content: flex-start; */
+      /* justify-content: flex-end; */
+      /* justify-content: center; */
+      /* justify-content: space-between; */
+      /* justify-content: space-around; */
+      /* justify-content: space-evenly; */
+      /* align-items: stretch; */
+      /* align-items: flex-start; */
+      /* align-items: flex-end; */
+      /* align-items: center; */
+      align-items: baseline;
+      gap: 10px;
+      gap: 10px 10px;
+      row-gap: 10px;
+      column-gap: 80px;
+      /* flex-wrap: wrap; */
+    }
+
+    .flex-items {
+      border: 5px solid blue;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Flujo natural</h1>
+  <div class="contenedor_flujo_natural">
+    <div class="hijos_flujo_natural">
+      <h1>titulo 1</h1>
+      <p>algun texto</p>
+    </div>
+    <div class="hijos_flujo_natural">
+      <h1>titulo 1</h1>
+      <p>algun texto</p>
+    </div>
+    <div class="hijos_flujo_natural">
+      <h1>titulo 1</h1>
+      <p>algun texto</p>
+    </div>
+  </div>
+  <hr>
+  <h1>Flujo position</h1>
+  <div class="contenedor_position">
+    <div class="hijos_position">
+      <h1>titulo 1</h1>
+      <p>algun texto</p>
+    </div>
+    <div class="hijos_position desplazar_der_167px">
+      <h1>titulo 1</h1>
+      <p>algun texto</p>
+    </div>
+    <div class="hijos_position desplazar_der_334px">
+      <h1>titulo 1</h1>
+      <p>algun texto</p>
+    </div>
+  </div>
+  <hr>
+  <h1>Flujo float</h1>
+  <div class="contenedor_float">
+    <div class="hijos_float">
+      <h1>titulo 1</h1>
+      <p>algun texto</p>
+    </div>
+    <div class="hijos_float">
+      <h1>titulo 1</h1>
+      <p>algun texto</p>
+    </div>
+    <div class="hijos_float">
+      <h1>titulo 1</h1>
+      <p>algun texto</p>
+    </div>
+  </div>
+  <hr>
+  <h1>Flujo inline-block</h1>
+  <div class="contenedor_inline-block">
+    <div class="hijos_inline-block">
+      <h1>titulo 1</h1>
+      <p>algun texto</p>
+    </div>
+    <div class="hijos_inline-block">
+      <h1>titulo 1</h1>
+      <p>algun texto</p>
+    </div>
+    <div class="hijos_inline-block">
+      <h1>titulo 1</h1>
+      <p>algun texto</p>
+    </div>
+  </div>
+  <hr>
+  <h1>Flujo flex</h1>
+  <div class="flex-container">
+    <div class="flex-items">
+      <h1>titulo 1</h1>
+      <p>algun texto</p>
+    </div>
+    <div class="flex-items">
+      <h1>titulo 2</h1>
+      <p>algun texto</p>
+    </div>
+    <div class="flex-items">
+      <h1>titulo 3</h1>
+      <p>algun texto
+      </p>
+    </div>
+  </div>
+</body>
+
+</html>
