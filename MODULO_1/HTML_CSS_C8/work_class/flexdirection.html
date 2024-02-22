@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .flex-container {
+      border: 5px solid red;
+      height: 200px;
+
+      display: flex;
+      /* 
+        nos indica el eje principal, cuando ponemos row el eje principal es el horizontal
+        Pero cuando ponemos el valor column nuestro eje principal ahora va a ser el vertical
+       */
+      flex-direction: row;
+      /* nos permite manejar el posicionamiento de nuestro elementos con respecto al eje principal */
+      justify-content: center;
+      /* nos permite manejar el posicionamiento de los elementos en ele eje cruzado o el eje complementario */
+      align-items: center;
+
+    }
+
+    .flex-item {
+      border: 5px solid green;
+      /* flex-basis: 15%; */
+    }
+
+    /* Propiedades de los flex-item */
+
+    /* ordenamiento de la visualizacion */
+    .order1 {
+      order: 1;
+    }
+
+    .order5 {
+      order: 5;
+    }
+
+    /* crecimiento del elemento */
+    .grow2 {
+      flex-grow: 2;
+    }
+
+    .grow1 {
+      flex-grow: 1;
+    }
+
+    /* encogimiento del elemento */
+    .shrink1 {
+      flex-shrink: 1;
+    }
+
+    .shrink2 {
+      flex-shrink: 2;
+    }
+
+
+
+    /* Flec column */
+    .flex-container-column {
+      margin-top: 50px;
+      border: 5px solid red;
+      height: 300px;
+
+      display: flex;
+      /* 
+        nos indica el eje principal, cuando ponemos row el eje principal es el horizontal
+        Pero cuando ponemos el valor column nuestro eje principal ahora va a ser el vertical
+       */
+      flex-direction: column-reverse;
+      /* nos permite manejar el posicionamiento de nuestro elementos con respecto al eje principal */
+      justify-content: center;
+      /* nos permite manejar el posicionamiento de los elementos en ele eje cruzado o el eje complementario */
+      align-items: stretch;
+      /* permite administrar la distancia entre elementos  */
+      /* gap: 20px; */
+      column-gap: 10px;
+      row-gap: 10px;
+
+      /* propiedad para permitir la separaciṕn de los elementos */
+      flex-wrap: wrap;
+    }
+
+    .flex-item-column {
+      border: 5px solid green;
+    }
+  </style>
+</head>
+
+<body>
+  <h3>Flex row</h3>
+  <div class="flex-container">
+    <div class="flex-item order1 shrink2">
+      <h1>item 1</h1>
+    </div>
+    <div class="flex-item order1 grow2 shrink2">
+      <h3>item 2</h3>
+    </div>
+    <div class="flex-item order1 grow1">
+      <h5>item3</h5>
+    </div>
+
+    <div class="flex-item order1">
+      <h1>item 4</h1>
+    </div>
+    <div class="flex-item order1">
+      <h3>item 5</h3>
+    </div>
+    <div class="flex-item order1">
+      <h5>item 6</h5>
+    </div>
+  </div>
+  <h3>Flex column</h3>
+  <div class="flex-container-column">
+    <div class="flex-item-column">
+      <h1>item 1</h1>
+    </div>
+    <div class="flex-item-column">
+      <h3>item 2</h3>
+    </div>
+    <div class="flex-item-column">
+      <h5>item3</h5>
+    </div>
+
+    <div class="flex-item-column">
+      <h1>item 4</h1>
+    </div>
+    <div class="flex-item-column">
+      <h3>item 5</h3>
+    </div>
+    <div class="flex-item-column">
+      <h5>item 6</h5>
+    </div>
+  </div>
+</body>
+
+</html>
