@@ -28,3 +28,4 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 - 16/02/2024 Flujo HTML, posicionamiento, background https://youtu.be/xh1WMxVnl_I
 - 19/02/2024 Introduccion a Flex https://youtu.be/t0cgf3b8hbI
 - 21/02/2024 Introduccion a Flex https://youtu.be/xgHKRrsG_j0
+- 23/02/2024 Introduccion a Flex https://youtu.be/S4CXV2WVPno

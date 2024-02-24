@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .nietos {
+      display: flex;
+      width: 100px;
+      height: 120px;
+      border: 1px solid yellow;
+    }
+
+    .hijos {
+      width: 120px;
+      height: 300px;
+      border: 3px solid blue;
+
+    }
+
+    /* propiedades del padre */
+    .container_general {
+
+      height: 800px;
+      display: flex;
+      border: 5px solid aqua;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      flex-wrap: wrap;
+
+    }
+
+    #hijo1 {
+      order: 2;
+      flex-basis: 240px;
+    }
+
+    #hijo2 {
+      order: 1;
+      flex-basis: 240px;
+    }
+
+    #hijo3 {
+      order: 0;
+      flex-shrink: 2;
+    }
+
+    #prueba {
+      flex-grow: 2;
+      flex-shrink: 3;
+    }
+
+    #prueba1 {
+      flex-grow: 3;
+      flex-shrink: 2;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container_general">
+    <div id="hijo1" class="hijos">1
+      <div class="nietos">
+        <h5>T1</h5>
+        <h5>T2</h5>
+      </div>
+      <div class="nietos"></div>
+    </div>
+    <div id="hijo2" class="hijos">2
+      <div class="nietos"></div>
+      <div class="nietos"></div>
+    </div>
+    <div id="hijo3" class="hijos">3
+      <div class="nietos"></div>
+      <div class="nietos"></div>
+    </div>
+    <div class="hijos">
+      <div class="nietos"></div>
+      <div class="nietos"></div>
+    </div>
+    <div class="hijos">
+      <div class="nietos"></div>
+      <div class="nietos"></div>
+    </div>
+    <div class="hijos">
+      <div class="nietos"></div>
+      <div class="nietos"></div>
+    </div>
+    <div class="hijos">
+      <div class="nietos"></div>
+      <div class="nietos"></div>
+    </div>
+    <div class="hijos">
+      <div class="nietos"></div>
+      <div class="nietos"></div>
+    </div>
+    <div class="hijos">
+      <div class="nietos"></div>
+      <div class="nietos"></div>
+    </div>
+    <div class="hijos">
+      <div class="nietos"></div>
+      <div class="nietos"></div>
+    </div>
+    <div class="hijos">
+      <div class="nietos"></div>
+      <div class="nietos"></div>
+    </div>
+    <div class="hijos">
+      <div class="nietos"></div>
+      <div class="nietos"></div>
+    </div>
+    <div id="prueba" class="hijos">
+      <div class="nietos"></div>
+      <div class="nietos"></div>
+    </div>
+    <div id="prueba1" class="hijos">
+      <div class="nietos"></div>
+      <div class="nietos"></div>
+    </div>
+  </div>
+</body>
+
+</html>
