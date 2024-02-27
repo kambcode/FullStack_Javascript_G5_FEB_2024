@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="general.css" media="all">
+  <link rel="stylesheet" href="desktop.css" media="(min-width: 1200px)">
+  <link rel="stylesheet" href="tablet.css" media="(min-width: 500px)">
+  <link rel="stylesheet" href="phone.css" media="(min-width: 200px)">
+  <style>
+    /* body {
+      background-color: red;
+    } */
+
+    /*Regla Media_type  operador_logico    condicion_logica  */
+    /* @media screen and (min-width: 120px) {
+      body {
+        background-color: black;
+      }
+    } */
+
+    /* @media all and (min-width: 120px) {
+      body {
+        color: white;
+      }
+    }
+
+    @media print and (min-width: 120px) {
+      body {
+        color: red;
+      }
+    }
+
+    @media screen and (prefers-color-schema: dark),
+    (min-width: 1200px) {
+      body {
+        background-color: green;
+      }
+    } */
+
+    /* Valores tipicos de ruptura en pantallas (Breakpoints) */
+    /* Dispositivos XS xtra small */
+    /* @media only screen and (max-width: 600px) { */
+
+    /* mis estilos */
+    /* body {
+        color: coral;
+      }
+    } */
+
+    /* Dispositivos S small */
+    /* @media only screen and (min-width: 600px) { */
+
+    /* mis estilos */
+    /* body {
+        color: yellow;
+      }
+    } */
+
+    /* Dispositivos M medium */
+    /* @media only screen and (min-width: 768px) { */
+
+    /* mis estilos */
+    /* body {
+        color: blue;
+      }
+    } */
+
+    /* Dispositivos L large */
+    /* @media only screen and (min-width: 992px) { */
+
+    /* mis estilos */
+    /* body {
+        color: red;
+      }
+    } */
+
+    /* Dispositivos XL xtra large */
+    /* @media only screen and (min-width: 1200px) { */
+
+    /* mis estilos */
+    /* body {
+        color: chartreuse;
+      }
+    } */
+
+    @media only screen and (orientation: landscape) {
+      body {
+        background-color: red;
+        color: white;
+      }
+
+      .hide-portrait {
+        display: block;
+      }
+    }
+
+    @media only screen and (orientation: portrait) {
+      body {
+        background-color: blue;
+        color: black;
+      }
+
+      .hide-portrait {
+        display: none;
+      }
+
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Hola mundo</h1>
+  <p class="hide-portrait">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam tenetur dolores eaque
+    cumque, magni eos, nobis
+    consequatur ullam nihil suscipit dolor repellendus. Hic accusamus ab labore illo vero nemo qui!</p>
+</body>
+
+</html>

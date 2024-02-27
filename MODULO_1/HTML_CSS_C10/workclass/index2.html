@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .navbar {
+      background-color: #333;
+      padding: 10px 0;
+    }
+
+    ul {
+      list-style-type: none;
+    }
+
+    @media only screen and (min-width: 768px) {
+      ul {
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+      }
+
+      .portfolio {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 20px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar">
+    <ul>
+      <li><a href="http://google.com" target="_blank" rel="noopener noreferrer">Ir a google</a></li>
+      <li><a href="http://facebook.com" target="_blank" rel="noopener noreferrer">Ir a facebook</a></li>
+      <li><a href="http://youtube.com" target="_blank" rel="noopener noreferrer">Ir a youtube</a></li>
+      <li><a href="http://linkedin.com" target="_blank" rel="noopener noreferrer">Ir a linkedin</a></li>
+    </ul>
+  </nav>
+  <hr>
+  <div id="Paris" class="portfolio">
+    <div class="portfolio-item">
+      <img src="./../resources/kambcode_landing_desktop.png" width="150" alt="Paris 1" />
+    </div>
+    <div class="portfolio-item">
+      <img src="./../resources/kambcode_landing_desktop.png" width="150" alt="Paris 2" />
+    </div>
+  </div>
+
+</body>
+
+</html>
