@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid layout</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <div class="title">Grid Layout</div>
+    <div class="subtitle"> Podemo definir la cantidad de columnas que queremos</div>
+    <div class="grid-container">
+        <div class="box-red"> Caja 1 </div>
+        <div class="box-red"> Caja 2 </div>
+        <div class="box-red"> Caja 3 </div>
+        <div class="box-red"> Caja 4 </div>
+        <div class="box-red"> Caja 5 </div>
+        <div class="box-red"> Caja 6 </div>
+    </div>
+    <div class="subtitle"> * Podemos usar columnas que utilicen fracciones</div>
+    <div class="grid-container-fraction">
+        <div class="box-red">
+            <h3>Perfil</h3>
+            <p>Este es mi perfil</p>
+        </div>
+        <div class="box-red">
+            <h3>Experiencia laboral</h3>
+            <ul>
+                <li>Experiencia 1</li>
+                <li>Experiencia 2</li>
+                <li>Experiencia 3</li>
+                <li>Experiencia 4</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="subtitle">Podemos usar columnas automaticas</div>
+    <div class="grid-container-auto">
+        <div class="box-red"> esta columna mide 100px</div>
+        <div class="box-red">
+            Esta columna es automatica
+            se agranda o achica dependiendo
+            de el tamaño de su contenido
+        </div>
+        <div class="box-red"> esta columna tiene un tamaño de un 1fr</div>
+    </div>
+
+
+    <div class="subtitle"> Podemos una cuadricula de columnas y filas</div>
+    <div class="grid-container-rows">
+        <div class="box-red"> Caja 1 </div>
+        <div class="box-red"> Caja 2 </div>
+        <div class="box-red"> Caja 3 </div>
+        <div class="box-red"> Caja 4 </div>
+        <div class="box-red"> Caja 5 </div>
+        <div class="box-red"> Caja 6 </div>
+        <div class="box-red"> Caja 7 </div>
+        <div class="box-red"> Caja 8 </div>
+        <div class="box-red"> Caja 9 </div>
+    </div>
+
+    <div class="subtitle"> * Las filas de una cuadricula, pueden ser automaticas</div>
+    <div class="grid-container-rows-auto">
+        <div class="box-red"> Caja 1 </div>
+        <div class="box-red"> Caja 2 </div>
+        <div class="box-red"> Caja 3 </div>
+        <div class="box-red">
+            <h1>Esta fila es automatica</h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti eum non
+            facere, nesciunt optio et dolorum vel cupiditate officiis excepturi dolorem in consectetur quo fugiat
+            voluptatem fugit eius similique earum.
+        </div>
+        <div class="box-red"> Caja 5 </div>
+        <div class="box-red"> Caja 6 </div>
+    </div>
+
+    <div class="subtitle"> * Podemos unir columnas </div>
+    <div class="grid-container-join">
+        <div class="box-red box-1"> Caja 1 </div>
+        <div class="box-red"> Caja 2 </div>
+        <div class="box-red"> Caja 3 </div>
+        <div class="box-red box-4"> Caja 4 </div>
+        <div class="box-red"> Caja 5 </div>
+        <div class="box-red"> Caja 6 </div>
+    </div>
+</body>
+
+</html>

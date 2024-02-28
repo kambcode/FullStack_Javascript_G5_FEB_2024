@@ -1,0 +1,42 @@
+.container{
+    display: grid;
+    /* grid-template-columns: 100px 1fr 200px 100px;
+    grid-template-rows: 100px 50px 300px 50px;
+    grid-template-areas: 
+    " .   aHead    aHead  ."
+    " .   aRight   b      ."
+    " .   aRight   aMain  ."
+    " .   aFoot    aFoot  ."; */
+    margin-left: 30px;
+    margin-right: 30px;
+    grid-template-columns: 1fr 200px;
+    grid-template-rows: 100px auto auto 50px;
+    gap: 5px;
+    grid-template-areas: 
+    " aHead    aHead"
+    " aRight   b    "
+    " aRight   aMain"
+    " aFoot    aFoot";
+
+}
+
+.header {
+    background-color: yellow;
+    grid-area: aHead;
+}
+.navigation {
+    background-color: purple;
+    grid-area: b;
+}
+.main {
+    background-color: plum;
+    grid-area: aMain;
+}
+.right {
+    background-color: aqua;
+    grid-area: aRight;
+}
+.footer {
+    background-color: aquamarine;
+    grid-area: aFoot;
+}
