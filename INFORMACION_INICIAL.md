@@ -30,3 +30,4 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 - 21/02/2024 Profundizacion flez https://youtu.be/xgHKRrsG_j0
 - 23/02/2024 Repaso Flex https://youtu.be/S4CXV2WVPno
 - 26/02/2024 Media queries https://youtu.be/RhZkqlV8r84
+- 28/02/2024 Media queries https://youtu.be/SRPhuVGwIwE

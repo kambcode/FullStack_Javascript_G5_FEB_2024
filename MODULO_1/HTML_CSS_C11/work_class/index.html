@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    /* GRID TAMAÑOS FIJOS */
+    .contenedor_grid {
+      display: grid;
+      gap: 5px 5px;
+      grid-template-columns: repeat(8, 40px);
+      grid-template-rows: 40px 40px 40px 40px 40px 40px 40px 40px;
+    }
+
+    .cuadrado {
+      background-color: blue;
+      /* height: 20px; */
+      border: 4px solid green;
+    }
+
+    .negro {
+      background-color: black;
+    }
+
+    .white {
+      background-color: white;
+    }
+
+    .circulo_amarillo {
+      width: 35px;
+      height: 35px;
+      border-radius: 50%;
+      background-color: yellow;
+    }
+
+    .cuadrado.negro {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .tamano_20X20 {
+      width: 20px;
+      height: 20px;
+    }
+
+    /* GRID TAMAÑOS VARIABLES */
+    .contenedor_variable {
+      display: grid;
+      grid-template-columns: 100px 1fr 1fr 1fr;
+      grid-template-rows: repeat(4, 40px);
+      /* gap: 10px 10px; */
+    }
+
+    .item1 {
+      grid-column: 1 / 3;
+    }
+
+    .item4 {
+      grid-column: 1 / span 2;
+    }
+
+    .item2 {
+      /* grid-row: 1 / span 2; */
+    }
+
+    .containger_grid_flex {
+      display: grid;
+      justify-content: center;
+      align-content: center;
+      grid-template-columns: repeat(3, 50px);
+      gap: 10px;
+      background-color: gray;
+      height: 400px;
+    }
+
+    .containger_grid_flex>div {
+      background-color: black;
+      height: 30px;
+      color: white;
+    }
+
+    #view_mobile {
+      display: block;
+    }
+
+    #view_desktop {
+      display: none;
+    }
+
+    @media only screen and (min-width: 720px) {
+      #view_mobile {
+        display: none;
+      }
+
+      #view_desktop {
+        display: block;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Definicion de grid columnas y filas tamaño fijo</h1>
+  <div class="contenedor_grid">
+    <div class="cuadrado negro">
+      <div class="circulo_amarillo">
+        <img src="./../resources/Gaps.png" width="20" height="20" alt="">
+      </div>
+    </div>
+    <div class="cuadrado white"></div>
+    <div class="cuadrado negro"></div>
+    <div class="cuadrado white"></div>
+    <div class="cuadrado"></div>
+    <div class="cuadrado"></div>
+    <div class="cuadrado"></div>
+    <div class="cuadrado"></div>
+    <div class="cuadrado"></div>
+    <div class="cuadrado"></div>
+    <div class="cuadrado"></div>
+    <div class="cuadrado"></div>
+    <div class="cuadrado"></div>
+    <div class="cuadrado"></div>
+    <div class="cuadrado"></div>
+    <div class="cuadrado"></div>
+    <div class="cuadrado"></div>
+    <div class="cuadrado"></div>
+    <div class="cuadrado"></div>
+    <div class="cuadrado"></div>
+    <div class="cuadrado"></div>
+    <div class="cuadrado"></div>
+    <div class="cuadrado"></div>
+    <div class="cuadrado"></div>
+    <div class="cuadrado"></div>
+    <div class="cuadrado"></div>
+    <div class="cuadrado"></div>
+    <div class="cuadrado"></div>
+    <div class="cuadrado"></div>
+    <div class="cuadrado"></div>
+    <div class="cuadrado"></div>
+    <div class="cuadrado"></div>
+    <div class="cuadrado"></div>
+    <div class="cuadrado"></div>
+    <div class="cuadrado"></div>
+    <div class="cuadrado"></div>
+    <div class="cuadrado"></div>
+    <div class="cuadrado"></div>
+    <div class="cuadrado"></div>
+    <div class="cuadrado"></div>
+    <div class="cuadrado"></div>
+    <div class="cuadrado"></div>
+    <div class="cuadrado"></div>
+    <div class="cuadrado"></div>
+    <div class="cuadrado"></div>
+    <div class="cuadrado"></div>
+    <div class="cuadrado"></div>
+    <div class="cuadrado"></div>
+    <div class="cuadrado"></div>
+    <div class="cuadrado"></div>
+    <div class="cuadrado"></div>
+    <div class="cuadrado"></div>
+    <div class="cuadrado"></div>
+    <div class="cuadrado"></div>
+    <div class="cuadrado"></div>
+    <div class="cuadrado"></div>
+    <div class="cuadrado"></div>
+    <div class="cuadrado"></div>
+    <div class="cuadrado"></div>
+    <div class="cuadrado"></div>
+    <div class="cuadrado"></div>
+    <div class="cuadrado"></div>
+    <div class="cuadrado"></div>
+    <div class="cuadrado"></div>
+  </div>
+  <hr>
+  <h1>Definicion de grid columnas y filas tamaño variables</h1>
+  <div class="contenedor_variable">
+    <div class="cuadrado item1">1</div>
+    <div class="cuadrado item2">
+      cuadro 2 akdfjskdjf
+    </div>
+    <div class="cuadrado"></div>
+    <div class="cuadrado item4">4</div>
+    <div class="cuadrado"></div>
+    <div class="cuadrado"></div>
+    <div class="cuadrado"></div>
+    <div class="cuadrado"></div>
+  </div>
+  <hr>
+  <h1>¿como operan algunas declaracion de flex dentro de grid?</h1>
+  <div class="containger_grid_flex">
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+    <div>4</div>
+    <div>5</div>
+    <div>6</div>
+  </div>
+
+  <!-- PRUEBA DE DISPLAY -->
+  <h1>Imagenes</h1>
+  <div class="container_display">
+    <img id="view_desktop" src="./../resources/Gaps.png" alt="">
+    <img id="view_mobile" src="./../resources/GridTemplate.png" alt="">
+  </div>
+</body>
+
+</html>
