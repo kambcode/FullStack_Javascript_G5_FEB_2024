@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    /* layout con grid */
+    .container {
+      display: grid;
+      gap: 10px;
+      grid-template-areas:
+        'header header header'
+        'column1 column2 column3'
+        'footer footer footer';
+      background-color: blue;
+      padding: 10px;
+    }
+
+    .container>div {
+      font-size: 30px;
+      text-align: center;
+    }
+
+    .Header {
+      background-color: green;
+      grid-area: header;
+    }
+
+    .column1 {
+      background-color: gray;
+      grid-area: column1;
+    }
+
+    .column2 {
+      background-color: black;
+      color: white;
+      grid-area: column2;
+    }
+
+    .column3 {
+      background-color: gray;
+      grid-area: column3;
+    }
+
+    .footer {
+      background-color: green;
+      grid-area: footer;
+    }
+
+    /* LAYOUT con flexbox */
+    .padretodo {
+      background-color: blue;
+      padding: 10px;
+    }
+
+    .cabecera,
+    .piepagina {
+      background-color: green;
+      text-align: center;
+      font-size: 30px;
+    }
+
+    .padrecolumnas {
+      display: flex;
+      font-size: 30px;
+      justify-content: space-between;
+      gap: 10px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+
+    }
+
+    .col1 {
+      background-color: gray;
+      flex-grow: 1;
+      flex-basis: auto;
+      text-align: center;
+    }
+
+    .col2 {
+      background-color: black;
+      color: white;
+      flex-grow: 1;
+      flex-basis: auto;
+      text-align: center;
+    }
+
+    .col3 {
+      background-color: gray;
+      flex-grow: 1;
+      /* flex-basis: 300px; */
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>layout con grid</h1>
+  <div class="container">
+    <div class="Header">Header</div>
+    <div class="column3">columna3</div>
+    <div class="column2">columna2</div>
+    <div class="column1">columna1</div>
+    <div class="footer">footer</div>
+  </div>
+  <h1>layout con flexbox</h1>
+  <div class="padretodo">
+    <div class="cabecera">Cabecera</div>
+    <div class="padrecolumnas">
+      <div class="col1"> Columna 1</div>
+      <div class="col2"> Columna 2</div>
+      <div class="col3"> Columna 3</div>
+    </div>
+    <div class="piepagina">
+      pie de pagina
+    </div>
+  </div>
+</body>
+
+</html>
