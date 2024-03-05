@@ -32,3 +32,7 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 - 26/02/2024 Media queries https://youtu.be/RhZkqlV8r84
 - 28/02/2024 Grid https://youtu.be/SRPhuVGwIwE
 - 01/03/2024 Cierre de modulo, parte final grid https://youtu.be/uJ59UOBS95U
+
+# Modulo 2
+
+- 04/03/2024 Introducción a Javascript https://www.youtube.com/watch?v=-mzBY3HXwM4&ab_channel=AcademicoKambcode
