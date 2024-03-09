@@ -67,19 +67,27 @@ console.log(gentilicio);
 // OPERADORES NULLISH COALESCING (Fusion de nulos) ?? y ||
 const tieneAlgo = false;
 const validation1 = tieneAlgo ?? 'Otra cosa'; // Este es mas relajado y solo no permite null y undefined
-// Esta es la forma mas imperativa del ejemplo anterior
-let val;
-if (tieneAlgo) {
-    val = tieneAlgo;
+console.log(validation1);
+// Esta es la forma mas imperativa del ejemplo anterior en el que usamos ??
+let val1;
+if (tieneAlgo !== null && tieneAlgo !== undefined) {
+    val1 = tieneAlgo;
 } else {
-    val = 'Otra cosa';
+    val1 = 'Otra cosa';
 }
-console.log('val::::: ', val);
+console.log('val::::: ', val1);
 
 
 const validation2 = tieneAlgo || 'Otra cosa'; // Este es mas estricto, no permite ningun valor falsy
-console.log(validation1);
 console.log(validation2);
+// Esta es la forma mas imperativa del ejemplo anterior en el que usamos ||
+let val2;
+if (tieneAlgo) {
+    val2 = tieneAlgo;
+} else {
+    val1 = 'Otra cosa';
+}
+console.log('val::::: ', val1);
 
 
 // OPERADORES con AGRUPACION ()
