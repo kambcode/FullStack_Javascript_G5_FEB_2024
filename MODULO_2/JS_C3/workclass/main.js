@@ -195,3 +195,14 @@ console.log(true && true || (!!true && !false) && ((!true && false) || false));
     F   V         F
     F   F         V
 */
+
+
+// EJERCICIOS TAREA
+// 1. ¬(p ∧ q)
+/*
+    p   q   p ∧ q  ¬(p ∧ q)
+    V   V     V        F
+    V   F     F        V
+    F   V     F        V
+    F   F     F        V
+*/

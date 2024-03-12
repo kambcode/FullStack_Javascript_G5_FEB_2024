@@ -37,3 +37,5 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 
 - 04/03/2024 Introducción a Javascript https://youtu.be/-mzBY3HXwM4
 - 06/03/2024 Operadores de comparación, Condicional if-else y Coerción https://youtu.be/3vqkTygrNd0
+- 08/03/2024 Operadores lógicos y tablas de verdad https://youtu.be/ZSV64cVgLH0
+- 11/03/2024 If-else-if, switch y var vs let vs const https://youtu.be/xqz5RJQ5kpY
