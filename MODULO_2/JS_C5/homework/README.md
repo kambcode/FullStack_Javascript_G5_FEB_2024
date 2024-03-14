@@ -20,4 +20,4 @@ Fin, Total a ahorrar $ 240
 
 3. Hacer un programa que verifique si una palabra ingresada por el usuario es palindrome (escrita de izquierda a derecha se lee igual que escrita al revés) o no. Por ejemplo la palabra reconocer es igual al derecho que al reves mientras que la palabra correr no. El resultado debe pintarse en el DOM y debe ser algo como: **La palabra {palabra} es palindrome: true/false**
 
-**NOTA**: Repasar propiedad length e investigar metodo toChar(), ambos propios de strings
+**NOTA**: Repasar propiedad length e investigar metodo charAt(), ambos propios de strings
