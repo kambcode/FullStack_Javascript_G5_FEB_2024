@@ -94,7 +94,7 @@ function printCar() {
 
     console.log('desde scope externo car1: ', car);
     console.log('desde scope externo ca2: ', car2);
-    console.log('desde scope externo car3: ', car3);
+    // console.log('desde scope externo car3: ', car3);
 }
 
 printCar();
@@ -126,7 +126,7 @@ foo(2);
 function bar2(c) {
     let d = 1 + 7;
     console.log('bar 2');
-    console.log(a, b, c, d); // undefined, undefined, 30, 8
+    //console.log(a, b, c, d); // undefined, undefined, 30, 8
 }
 
 function foo2(a) {
@@ -135,3 +135,35 @@ function foo2(a) {
 }
 
 foo2(5);
+
+/*
+    VAR
+    - Scope: Función
+    - Re asignar: Sí
+    - Re declarar: Sí
+    - Declarar sin valor inicial: Sí
+
+
+    LET
+    - Scope: Bloque
+    - Re asignar: Sí
+    - Re declarar: No
+    - Declarar sin valor inicial: Sí
+
+
+    CONST
+    - Scope: Bloque
+    - Re asignar: No
+    - Re declarar: No
+    - Declarar sin valor inicial: No
+*/
+
+
+// Declarar
+function sumar(number1, number2) {
+    return number1 + number2;
+}
+
+//Ejecutar
+console.log('resultado suma 1: ', sumar(1, 2));
+console.log('resultado suma 2: ',sumar(5, 6));
