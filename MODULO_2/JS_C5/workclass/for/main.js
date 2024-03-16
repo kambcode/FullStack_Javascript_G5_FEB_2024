@@ -72,3 +72,57 @@ for (let i = 2; i <= 20; i += 2) {
 // i = 22 -> 22 <= 20 -> false -> Final del ciclo
 
 console.log('Fin del ciclo para encontrar los pares');
+
+// EJERCICIO PALINDROME
+const palabraIngresada = '';
+let palabraInvertida = '';
+// carro -> orrac
+for (let i = palabraIngresada.length; i > 0; i--) {
+    // 1. i = 5 -> posicion = 5 - 1 => charAt(4) ... palabraInvertida = 'o'
+    // 2. i = 4 -> posicion = 4 - 1 => charAt(3) ... palabraInvertida = 'or'
+    // 3. i = 3 -> posicion = 3 - 1 => charAt(2) ... palabraInvertida = 'orr'
+    // 4. i = 2 -> posicion = 2 - 1 => charAt(1) ... palabraInvertida = 'orra'
+    // 5. i = 1 -> posicion = 1 - 1 => charAt(0) ... palabraInvertida = 'orrac'
+    // 6. i = 0 -> fin del ciclo
+    palabraInvertida += palabraIngresada.charAt(i - 1);
+}
+
+// document.write(`La palabra ${palabraIngresada} es palindrome: ${palabraIngresada === palabraInvertida}`);
+
+
+// CICLOS ANIDADOS
+// Los ciclos anidados en javascript son bucles dentro de otros bucles.
+// Esto quiere decir que tienes un bucle iterando dentro de otro
+
+for (let i = 1; i < 3; i++) {
+    console.log(`Iteracion externa: ${i}`); // 2
+   
+    for (let j = 1; j < 5; j++) {
+        console.log(`Iteracion interna: ${j}`);
+    }
+}  
+
+// Tabla de los tres primeros numeros
+/*for (let i=1; i<=3; i++) {
+    document.write(`TABLA DEL: ${i}`);
+
+    for(let j=1; j<=10; j++) {
+        document.write(`<p>${i}x${j} = ${i*j}</p>`);
+    }
+}*/
+
+for(let i=1; i<10; i++) {
+    for(let j=1; j<11; j++) {
+        let x=Number(i*j);
+        document.write(`${i}x${j}=${x}<br>`);
+    }
+    document.write('<br>');
+}
+
+// RETO
+// 0:0, 0:1, 0:2,…..1:4
+for (let i = 0; i < 2; i++) {
+    for (let j = 0; j < 5; j++) {
+        console.log(`${i}:${j}`)
+    }
+}
