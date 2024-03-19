@@ -40,4 +40,5 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 - 08/03/2024 Operadores lógicos y tablas de verdad https://youtu.be/ZSV64cVgLH0
 - 11/03/2024 If-else-if, switch y var vs let vs const https://youtu.be/xqz5RJQ5kpY
 - 13/03/2024 Ciclos for, while y do while https://youtu.be/54sBs6DLsNw
-- 15/03/2024 Repaso for, for anidados e introducci+on a NodeJS https://youtu.be/YUmPMVZ8aAo
+- 15/03/2024 Repaso for, for anidados e introducción a NodeJS https://youtu.be/YUmPMVZ8aAo
+- 18/03/2024 Arrays https://youtu.be/fPhiofzkfm4
