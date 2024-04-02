@@ -44,3 +44,4 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 - 18/03/2024 Arrays https://youtu.be/fPhiofzkfm4
 - 20/03/2024 Funciones https://youtu.be/1_UrmfSYI74
 - 20/03/2024 Objetos https://youtu.be/2nDL2xrBFIg
+- 01/04/2024 Repaso de temas anteriores y maniuplación básica del DOM https://youtu.be/eeQ64WbmRU8
