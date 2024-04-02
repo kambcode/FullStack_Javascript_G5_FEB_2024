@@ -8,11 +8,13 @@ Para esta vamos a crear una pagina web que permita a el usuario adminsitrar una 
 
 Los criterios de aceptación de tu lista de compras son:
 
-1. Debes tener un input donde el usaurio debe digitar el producto que quiere agregar a la lista de compras.
+1. Debes tener un input donde el usuario debe digitar el producto que quiere agregar a la lista de compras.
 2. Debes incluir un botón llamado "Add Item" o "Agregar a la lista", una vez el usuario de click a el boton, el producto que se escribió en el punto 1 se debe agreagr a la lista (utiliza un array de strings para almacenar los productos de la lista)
 3. El diseño es totalmente libre. Pero a continuación encontrarás un demo de cómo debe funcionar tu lista de compras. 
 
-https://github.com/KamiloMontoya/base-kambcode/assets/146487542/d5d93821-60b9-4a0d-b425-6b5943a2136b
+[![Demo](https://img.youtube.com/vi/cypni3sVz7s/1.jpg)](https://www.youtube.com/watch?v=cypni3sVz7s)
+
+https://www.youtube.com/watch?v=cypni3sVz7s
 
 
 4. Todo el codigo de javascript debe estar incluido en un archivo de JS. 
