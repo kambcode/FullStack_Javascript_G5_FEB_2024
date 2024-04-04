@@ -45,3 +45,4 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 - 20/03/2024 Funciones https://youtu.be/1_UrmfSYI74
 - 20/03/2024 Objetos https://youtu.be/2nDL2xrBFIg
 - 01/04/2024 Repaso de temas anteriores y maniuplación básica del DOM https://youtu.be/eeQ64WbmRU8
+- 03/04/2024 Practica de manipulación del DOM con ejercicios https://youtu.be/z-85jg87AOA

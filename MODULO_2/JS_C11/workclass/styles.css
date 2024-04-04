@@ -1,0 +1,30 @@
+body {
+    font: small-caption;
+}
+
+.wrapper {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+}
+
+.wrapper div {
+    height: 10em;
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    flex-direction: column;
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 8em;
+    height: 30px;
+    background-color: rgb(183, 17, 17);
+    font-size: 13px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
