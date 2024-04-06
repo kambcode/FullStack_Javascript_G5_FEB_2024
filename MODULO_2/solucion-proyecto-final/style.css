@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(235, 194, 233);
+}
+.cont{
+    background-color: aqua;
+    width: 500px;
+    height: auto;
+    border: 1px solid black;
+    padding-left: 25px;
+    margin: auto;
+}
+.form{
+    width: 200px;
+    border: 1px solid black;
+    padding-left: 10px;
+    
+}
