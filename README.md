@@ -27,7 +27,7 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 - 14/02/2024 Selectores, box-model https://youtu.be/RbczRywCBGE
 - 16/02/2024 Flujo HTML, posicionamiento, background https://youtu.be/xh1WMxVnl_I
 - 19/02/2024 Introduccion a Flex https://youtu.be/t0cgf3b8hbI
-- 21/02/2024 Profundizacion flez https://youtu.be/xgHKRrsG_j0
+- 21/02/2024 Profundizacion flex https://youtu.be/xgHKRrsG_j0
 - 23/02/2024 Repaso Flex https://youtu.be/S4CXV2WVPno
 - 26/02/2024 Media queries https://youtu.be/RhZkqlV8r84
 - 28/02/2024 Grid https://youtu.be/SRPhuVGwIwE
@@ -47,3 +47,5 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 - 01/04/2024 Repaso de temas anteriores y maniuplación básica del DOM https://youtu.be/eeQ64WbmRU8
 - 03/04/2024 Practica de manipulación del DOM con ejercicios https://youtu.be/z-85jg87AOA
 - 05/04/2024 Soluciín proyecto final y despedida https://youtu.be/kObvV26UggA
+
+# Modulo 3
