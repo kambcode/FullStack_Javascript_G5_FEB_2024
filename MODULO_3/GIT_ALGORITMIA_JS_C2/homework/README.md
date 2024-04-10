@@ -4,7 +4,7 @@
 
 Practicar el manejo básico de Git y la colaboración en un proyecto compartido.
 
-1. **Clonar el repositorio:** Vamos a clonar el repositorio colaborativo para todo el grupo:
+1. **Clonar el repositorio :** Vamos a clonar el repositorio colaborativo para todo el grupo:
 
 ```
 git clone https://github.com/julian-vargas-kambcode/modulo3-kambcode.git
