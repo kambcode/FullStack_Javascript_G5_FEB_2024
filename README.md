@@ -51,3 +51,4 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 # Modulo 3
 
 - 08/04/2024 Introducción git y github https://youtu.be/fUp6vMAIgRE
+- 10/04/2024 Repaso git y github, clonasion y ramas https://youtu.be/BruIUFoc3HU
