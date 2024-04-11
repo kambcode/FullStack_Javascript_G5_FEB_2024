@@ -1,0 +1,16 @@
+git init -> Se usa para inicializar un repositorio local
+git status -> Se usas par conocer el estado del repositorio local y lo cambios detectados
+git add -> Se usa para prepara los cambios en el area de stage
+git commit -> Se usa para confirmar los cambios que estan en stage y pasarlos al historico del repositorio
+
+git clone -> Se usa para clonar repositorios preexistentes
+git checkout -> Se usa para cambiar entre momentos historicos del repositorio, se usa para cambiar de ramas
+git checkout -b -> Se usa para crera una rama y simultaneamente movernos a esa nueva rama
+
+git branch -> Se usa para crear rama sin moverme a ella
+git branch -D -> Se usa para eliminar ramas locales
+
+git push -> Se usa para enviar cambios al repositorio remoto
+git push orgin -d -> Se usa para eliminar ramas en el repositorio remoto
+
+git remote add origin -> Se usa para relacionar el repositorio remoto con el repositorio local
