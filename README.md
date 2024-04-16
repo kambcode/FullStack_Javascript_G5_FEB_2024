@@ -53,3 +53,4 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 - 08/04/2024 Introducción git y github https://youtu.be/fUp6vMAIgRE
 - 10/04/2024 Repaso git y github, clonasion y ramas https://youtu.be/BruIUFoc3HU
 - 12/04/2024 Pull request, consola, markdown https://youtu.be/T9hXsAGV-g4
+- 15/04/2024 Algoritmia, Diagramas de flujo, repaso git https://youtu.be/tvX621Ylv3E
