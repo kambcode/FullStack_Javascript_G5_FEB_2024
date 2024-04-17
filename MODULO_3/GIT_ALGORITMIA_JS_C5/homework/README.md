@@ -72,3 +72,7 @@ console.log(resultado); // Output: 0
 En este caso, 16 es divisible por 5 dos veces, con un resto de 0, por lo que resultado será 0.
 
 El operador de módulo es útil para verificar si un número es divisible por otro y para obtener el resto de una división.
+
+## Entrega:
+
+Cada estudiante deberá cargar el desarrollo de su actividad al interior de la carpeta personal que fue creada, el trabajo debe realizarse en la rama personal de cada estudiante y finalmente **crear la solicitud de PR(Pull Request) correspondiente para solicitar la revisión**.
