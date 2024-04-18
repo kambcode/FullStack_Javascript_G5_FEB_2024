@@ -1,35 +1,34 @@
 // const a = true;
-// // !a === false
-// // !!a === true
-// if (!a) {
-//   console.log("No Entra");
-// }
+const a = false;
+if (!!a) {
+  console.log("Entra IF (negación)");
+} else {
+  console.log("No Entra IF (negación)");
+}
 
-// const b = true;
-// if (a && b) {
-//   console.log("Entra");
-// }
+const b = true;
+if (a && b) {
+  console.log("Entra (and)");
+} else {
+  console.log("No Entra (and)");
+}
+if (!a && b && !!b) {
+  console.log("Entra (and)");
+}
 
-// // !b === false
-// if (a && !b) {
-//   console.log("No Entra");
-// }
+if (a || b) {
+  console.log("Entra");
+}
 
-// if (a || !b) {
-//   console.log("Entra");
-// }
+// (T && T ) || T || F
+// T || T || F
+if ((!a && b) || !a || !b) {
+  console.log("Si Entra");
+}
 
-// // f and t       f  or  f
-// //   f       or     f
-// //           f
-// if ((!a && b) || !a || !b) {
-//   console.log("No Entra");
-// }
-
-// //   t or f        t  and t        f   and   f
-// //    (t      and       t)      or      f
-// //              t          or           f
-// //                          t
-// if (((a || !b) && !!a && !!b) || (!!!a && !!!!!b)) {
-//   console.log("Si Entra");
-// }
+// ((F || F) && F && T)  || (T && F)
+// (F && F && T) || (T && F)
+// F || F
+if (((a || !b) && !!a && !!b) || (!!!a && !!!!!b)) {
+  console.log("No Entra");
+}
