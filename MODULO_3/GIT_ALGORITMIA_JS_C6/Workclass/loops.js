@@ -3,16 +3,16 @@
 
 // const condition = (!a && b) || ((a || !b) && !!a && !!!!b); //true
 
-for (let i = 0; i !== 100; i++) {
+for (let i = 0; i < 10; i++) {
   console.log(i);
 }
 
 // While
 
-// let i = 0;
+let i = 10;
 
-// while (i !== 100) {
-//   console.log(i);
+while (i < 20) {
+  console.log(i);
 
-//   i++;
-// }
+  i++;
+}

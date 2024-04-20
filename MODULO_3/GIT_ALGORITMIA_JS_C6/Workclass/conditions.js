@@ -31,7 +31,9 @@ switch (mobileBrand) {
     break;
 
   case "Google":
-    console.log("Este es el caso Google");
+  case "facebook":
+  case "x":
+    console.log("Este es el caso Google, facebook y x");
     break;
 
   case "Samsung":
