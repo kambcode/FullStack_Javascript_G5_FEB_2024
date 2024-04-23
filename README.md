@@ -56,3 +56,4 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 - 15/04/2024 Algoritmia, Diagramas de flujo, repaso git https://youtu.be/tvX621Ylv3E
 - 17/04/2024 Algoritmia, operadores, digramas https://youtu.be/aCyf8hO6qZU
 - 19/04/2024 Repaso git, repaso javascript https://youtu.be/az_qO5IeYlU
+- 22/04/2024 Workshop javascript https://youtu.be/gH-eSWvrzyo
