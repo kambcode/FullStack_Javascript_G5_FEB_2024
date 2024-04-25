@@ -57,3 +57,4 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 - 17/04/2024 Algoritmia, operadores, digramas https://youtu.be/aCyf8hO6qZU
 - 19/04/2024 Repaso git, repaso javascript https://youtu.be/az_qO5IeYlU
 - 22/04/2024 Workshop javascript https://youtu.be/gH-eSWvrzyo
+- 24/04/2024 Es6 map, reduce, filter, foreach https://youtu.be/PUqxJjgDIR8

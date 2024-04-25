@@ -9,7 +9,7 @@ for (let i = 0; i < numeros.length; i++) {
 }
 
 // Before
-
+// Arreglo original . foreach( Arrow function )
 numeros.forEach((value, index) =>
   console.log(`index: ${index} - value: ${value}`)
 );

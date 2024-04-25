@@ -1,8 +1,13 @@
 // Map
 
 const numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+// let numerosX10 = [];
 
-const numerosX10 = numeros.map((value) => value * 10);
+// for (const elemento of numeros) {
+//   numerosX10.push(elemento * 10);
+// }
+
+const numerosX10 = numeros.map((elemento) => elemento * 10);
 
 console.log(numerosX10);
 
@@ -37,20 +42,15 @@ const estudiantes = [
 
 // Agrega campo semestre
 const estudiantesSemestre3 = estudiantes.map((value) => {
-  value.semestre = 3;
-  return value;
+  // value.semestre = 3;
+  return { ...value, semestre: 3 };
 });
-
-// spread operator
-const estudiantesMedellin = estudiantes.map((value) => {
-  return {
-    ...value,
-    ciudad: "Medellín",
-  };
-});
-
+console.log(estudiantesSemestre3);
+console.log(estudiantes);
 // Elimina el campo ciudad
 const estudiantesSinCiudad = estudiantes.map((value) => {
   delete value.ciudad;
   return value;
 });
+
+console.log(estudiantesSinCiudad);
