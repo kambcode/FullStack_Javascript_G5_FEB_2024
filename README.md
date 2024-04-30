@@ -58,4 +58,5 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 - 19/04/2024 Repaso git, repaso javascript https://youtu.be/az_qO5IeYlU
 - 22/04/2024 Workshop javascript https://youtu.be/gH-eSWvrzyo
 - 24/04/2024 Es6 map, reduce, filter, foreach https://youtu.be/PUqxJjgDIR8
-- 26/04/2024 Repas funciones array, callbacks https://youtu.be/v5kzdUgTXak
+- 26/04/2024 Repaso funciones array, callbacks https://youtu.be/v5kzdUgTXak
+- 29/04/2024 Promesas https://youtu.be/ZpMTH73CQ7g
