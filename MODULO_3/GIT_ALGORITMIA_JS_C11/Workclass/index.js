@@ -11,7 +11,6 @@ const API = "https://pokeapi.co/api/v2/pokemon";
 
 function main() {
   const pokemons = [];
-
   axios
     .get(API)
     .then((response) => {
@@ -43,4 +42,30 @@ function main() {
     });
 }
 
-main();
+// main();
+
+// QUEREMOS OBTENER los 1302 pokemones sin detalle
+// Dentro de la respuesta de ese api exite el parametro next y es null
+// cuando ya no hay mas información que devolver
+const API_PAGINADO = "https://pokeapi.co/api/v2/pokemon?offset=0&limit=20";
+
+function AllPokemon() {
+  console.time("inicio_largo");
+  const pokemons = [];
+  let peticiones = [];
+  let offset = 0;
+  while (offset < 1302) {
+    peticiones.push(
+      axios.get(`https://pokeapi.co/api/v2/pokemon?offset=${offset}&limit=20`)
+    );
+    offset += 20;
+  }
+  Promise.all(peticiones).then((responses) => {
+    for (const response of responses) {
+      pokemons.push(...response.data.results);
+    }
+    console.log(pokemons);
+  });
+  console.timeEnd("inicio_largo");
+}
+AllPokemon();

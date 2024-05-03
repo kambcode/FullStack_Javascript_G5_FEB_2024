@@ -60,3 +60,4 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 - 24/04/2024 Es6 map, reduce, filter, foreach https://youtu.be/PUqxJjgDIR8
 - 26/04/2024 Repaso funciones array, callbacks https://youtu.be/v5kzdUgTXak
 - 29/04/2024 Promesas https://youtu.be/ZpMTH73CQ7g
+- 02/05/2024 Async / await https://youtu.be/g_PNGq_gY5o
