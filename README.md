@@ -61,3 +61,4 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 - 26/04/2024 Repaso funciones array, callbacks https://youtu.be/v5kzdUgTXak
 - 29/04/2024 Promesas https://youtu.be/ZpMTH73CQ7g
 - 02/05/2024 Async / await https://youtu.be/g_PNGq_gY5o
+- 06/05/2024 Closures y event loop https://youtu.be/WA-k2R9r-_M
