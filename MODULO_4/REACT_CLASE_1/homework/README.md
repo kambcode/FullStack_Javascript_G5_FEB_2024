@@ -1,16 +1,24 @@
 ## Tarea para casa: Introducción al DOM y Métodos HTTP
 
+### Crear repositorio en github:
+Crear un repositorio en github con su nombre y modulo ejemplo: daniel_lopez_react y agregarme como colaborador mi correo es danilocha1@gmail.com
+
 ### Practicar con el DOM:
 
 Abre el navegador web y accede a la consola del desarrollador (generalmente se accede con F12 o clic derecho y seleccionando "Inspeccionar").
 Experimenta con el DOM utilizando comandos de JavaScript como document.getElementById, document.createElement, element.appendChild, etc. Crea y modifica elementos HTML para comprender cómo se estructura y manipula el DOM.
 Crear un nuevo titulo y un parrafo desde la consola manipulando el DOM, de una pagina WEB conocida como NetFilx.com
 
+Guardar pantallazos en su repositorio en la carpeta clase_uno
+
 ### Realizar solicitudes HTTP:
 
 Utiliza herramientas como Postman o cURL para realizar solicitudes HTTP GET y POST a una API pública o local.
 Realiza una solicitud GET para obtener datos de una API FREE de prueba.
-El profesor debe de hace un ejemplo en clase, con postman y una API publica free.
+
+API: https://pokeapi.co/docs/v2
+
+NOTA: crear un archivo json y guardarlo en la carpeta clase_uno de su repositorio de github, desde postman puede copiar la respuesta del endpoint y pegarlo en VSCode guardarlo con la extension .json, realizar minimo 2 ejemplos 
 
 ### Investigar sobre la comunicación entre BackEnd y FrontEnd:
 

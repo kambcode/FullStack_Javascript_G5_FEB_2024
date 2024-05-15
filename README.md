@@ -62,3 +62,6 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 - 29/04/2024 Promesas https://youtu.be/ZpMTH73CQ7g
 - 02/05/2024 Async / await https://youtu.be/g_PNGq_gY5o
 - 06/05/2024 Closures y event loop https://youtu.be/WA-k2R9r-_M
+
+# Modulo 4
+- 06/05/2024 Repaso DOM, HTTP, Road map https://youtu.be/5po_zFUACm4
