@@ -64,4 +64,5 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 - 06/05/2024 Closures y event loop https://youtu.be/WA-k2R9r-_M
 
 # Modulo 4
-- 06/05/2024 Repaso DOM, HTTP, Road map https://youtu.be/5po_zFUACm4
+- 14/05/2024 Repaso DOM, HTTP, Road map https://youtu.be/5po_zFUACm4
+- 16/05/2024 Por que react? instalacion y primeros pasos https://youtu.be/U79B1y94x4Y
