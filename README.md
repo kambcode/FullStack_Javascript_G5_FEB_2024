@@ -66,3 +66,5 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 # Modulo 4
 - 14/05/2024 Repaso DOM, HTTP, Road map https://youtu.be/5po_zFUACm4
 - 16/05/2024 Por que react? instalacion y primeros pasos https://youtu.be/U79B1y94x4Y
+- 20/05/2024 Creacion de componentes https://youtu.be/5zIKsM1g6dI
+- 22/0/2024 Repaso creacion de componentes https://youtu.be/an_FjuOT9_4 
