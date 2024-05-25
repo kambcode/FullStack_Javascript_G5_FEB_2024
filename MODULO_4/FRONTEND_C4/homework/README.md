@@ -1,4 +1,4 @@
-## Tarea: Implementar un componente de reloj en tiempo real
+## Tarea: Consumo de APIS y Hooks
 
 ### Explicación:
 En esta tarea vamos a practicar la creación de "High Order Components (Componenets de alto nivel)" y vamos a aplicar algunos de los conceptos vistos en clase como el ciclo de vida de el componente usando el hook `useEffect`. Asi como llamados a la API de rick and morty para consultar información
