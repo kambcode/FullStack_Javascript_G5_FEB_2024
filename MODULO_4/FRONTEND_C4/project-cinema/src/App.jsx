@@ -13,7 +13,6 @@ function App() {
       .then((response) => response.json())
       .then((data) => setPersonajes(data.results))
   }, [pagina])
-  console.log(personajes)
   const incrementarContador = () => {
     setPagina(pagina + 1)
   }
