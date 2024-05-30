@@ -70,3 +70,4 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 - 22/05/2024 Repaso creacion de componentes https://youtu.be/an_FjuOT9_4 
 - 24/05/2024 Fetch, useEffect, useState https://youtu.be/8BOM3_fBo5o
 - 27/05/2024 queryParams, useEffect, useState https://youtu.be/bQS3wEFtZDo
+- 29/05/2024 uso de formularios https://youtu.be/Gu5GOdRLty8
