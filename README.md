@@ -73,3 +73,4 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 - 29/05/2024 uso de formularios https://youtu.be/Gu5GOdRLty8
 - 31/05/2024 Repaso uso de apis https://youtu.be/9e1s_5iT6Sw
 - 04/06/2024 React router https://youtu.be/QEafhqQK0Xw
+- 06/06/2024 Despliegue apps, netlify y vercel https://youtu.be/iaPMFWBeXe0
