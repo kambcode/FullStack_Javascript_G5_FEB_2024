@@ -33,3 +33,11 @@ function saludar() {
 
 // Llamada a la función
 saludar();
+
+const students = ["Alejandro", "Baris", "Maria", "Dave", "Julian"];
+
+for(let index = 0; index < students.length; index++) {
+  console.log('Name of student is: ' + students[index]);
+}
+
+console.log(students[1]);
