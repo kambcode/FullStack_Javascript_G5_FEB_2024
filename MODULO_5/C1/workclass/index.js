@@ -42,3 +42,7 @@ for(let index = 0; index < students.length; index++) {
 }
 
 console.log(students[1]);
+
+for (let i = 1; i <= 10; i++) {
+  console.log(i);
+}
