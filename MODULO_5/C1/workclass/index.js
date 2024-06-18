@@ -34,6 +34,7 @@ function saludar() {
 // Llamada a la función
 saludar();
 
+/** Esto es un array, que va ser recorrido por un ciclo o loop */
 const students = ["Alejandro", "Baris", "Maria", "Dave", "Julian"];
 
 for(let index = 0; index < students.length; index++) {
