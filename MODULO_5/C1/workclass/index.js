@@ -25,3 +25,11 @@ addNumbers(1,5)
 function nombreDeLaFuncion(parametro1, parametro2) {
   // Cuerpo de la función
 }
+
+// Función que saluda
+function saludar() {
+  console.log("¡Hola, mundo!");
+}
+
+// Llamada a la función
+saludar();
