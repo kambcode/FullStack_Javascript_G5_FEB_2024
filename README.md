@@ -75,3 +75,6 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 - 04/06/2024 React router https://youtu.be/QEafhqQK0Xw
 - 06/06/2024 Despliegue apps, netlify y vercel https://youtu.be/iaPMFWBeXe0
 - 11/06/2024 UseContext https://youtu.be/3quT00rMCTw
+
+# Modulo 5
+- 17/06/2024 Backend - Repaso JS - https://youtu.be/xqOBNICWG9A

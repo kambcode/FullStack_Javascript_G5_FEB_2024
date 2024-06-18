@@ -46,3 +46,6 @@ console.log(students[1]);
 for (let i = 1; i <= 10; i++) {
   console.log(i);
 }
+var array1 = [1, 2, 3];
+var array2 = [...array1];
+console.log(array2); // [1, 2, 3]
