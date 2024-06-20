@@ -2,7 +2,7 @@ function obtenerEmpresa() {
     return {
         nombre: "Mi Empresa",
         fundacion: 2000,
-        sede: "Ciudad de Ejemplo",
+        sede: "Ibagué",
         industria: "Tecnología",
         empleados: 100
     };
