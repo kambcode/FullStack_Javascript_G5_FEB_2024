@@ -79,4 +79,4 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 # Modulo 5
 - 17/06/2024 Backend - Repaso JS - https://youtu.be/xqOBNICWG9A
 - 19/06/2024 Backend - Estructuras JS, Intro. Node.js, Nodemon, NVM - https://youtu.be/mpUsg3u_p8M
-- 19/06/2024 Backend - Estructuras JS, Intro. Node.js - --
+- 21/06/2024 Backend - Estructuras JS, Intro. Node.js - https://youtu.be/hI60FuzbTP0
