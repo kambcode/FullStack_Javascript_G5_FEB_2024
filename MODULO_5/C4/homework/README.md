@@ -1,54 +1,65 @@
-## Tarea: Generado de Numeros y detector de numeros pares
+## Tarea: Tarea → Calculadora Node.js
 
 ### Objetivo
 
-Practicar el uso del módulo `fs` para escribir y leer archivos, y aplicar una lógica sencilla para encontrar números pares.
+En esta tarea, se te pide desarrollar una calculadora básica en Node.js que pueda realizar operaciones simples de suma, resta, multiplicación y división. La calculadora deberá recibir los números y la operación directamente como argumentos de línea de comandos al ejecutar el script.
 
 ### Descripción del ejercicio
 
-1. Crea un nuevo proyecto en nodeJS utilizando el comando `npm init` tal cual cómo se vio en clases anteriores. 
+1. Inicialización del proyecto. 
+- Crea un nuevo directorio para tu proyecto.
+- Inicializa un nuevo proyecto de Node.js utilizando **`npm init`**.
+- Crea los archivos necesarios para la tarea, como **`calculadora.js`**, **`package.json`** y **`README.md`**.
 
-2. Dentro de el package.json de tu proyecto debes agrear un par scripts que ejecuten un archivo llamado generator.js y un archivo find.js  Ejemplo:
+2. Desarrollo de la funcionalidad.
 
     ```
-    "script": {
-        "generate-file": "node generator.js",
-        "find-even-number": "node find.js"
-    }
+    calculadora/
+    │
+    ├── calculadora.js
+    ├── package.json
+    └── README.md
     ```
+- Implementa las funciones necesarias para realizar operaciones matemáticas básicas, como suma, resta, multiplicación y división.
+- Crea una función principal que reciba los números y la operación como argumentos de línea de comandos y ejecute la operación correspondiente.
 
+3. Argumentos de línea de comandos.
+- La calculadora deberá recibir los números y la operación directamente como argumentos al ejecutar el script desde la línea de comandos.
+- Los argumentos deberán ser proporcionados de la siguiente manera: [número1] [operación] [número2].
+- Por ejemplo: node calculadora.js 5 + 3.
 
-    **OPCIONAL** incluye nodemon a tu proyecto y ejecuta los archivos con nodemon
+### Argumentos de línea de comandos:
 
-3. Crea un archivo `generator.js` este archivo es un script que utiliza la librería FileSystem (fs) para generar un archivo llamado `numeros.txt` que contenga los números del 1 al 1000, separados por coma  `1,2,3,4,5 ... ,1000` o uno por línea de la siguente forma.
-    
-    
-    ```
-        1
-        2
-        3
-        ...
-        1000
-    ```
+La calculadora deberá recibir los números y la operación directamente como argumentos al ejecutar el script desde la línea de comandos.
 
-    ```Contenido de el archivo numeros.txt ```
-    
+Los argumentos deberán ser proporcionados de la siguiente manera: [número1] [operación] [número2].
+Por ejemplo, para sumar 5 y 3, puedes ejecutar el siguiente comando en tu terminal:
 
-4. Ahora crea un archivo llamado `find.js` este script debe hacer uso de la librería `fs` para leer el archivo `numeros.txt`, y debe mostrar en pantalla por medio de un `console.log` los numeros pares presentes en el archivo `numeros.txt`
+```
+    node calculadora.js 5 + 3
+```
 
-    **NOTA** recuerda que para saber si un numero es par solo debes validar que el residuo sea cero 
+En este ejemplo:
 
-    ```javascript
-    const numero = parseInt(numberString); // parseInt convierte un string a número
-    if (numero % 2 === 0) {
-       //  es par
-    } else {
-        // No es par
-    }
-    ```
- 
-6. Finalemente prueba tu programa corriendo los comandos `npm run generate-file` y despues `npm run find-even-number`
+- node es el comando para ejecutar un script de Node.js.
+- calculadora.js es el nombre del archivo de script que contiene la calculadora.
+- 5, + y 3 son los argumentos que proporcionas a la calculadora para realizar la operación. En este caso, estás indicando que deseas sumar 5 y 3.
 
-## OPCIONAL
+Recuerda separar cada argumento con un espacio y asegurarte de que la operación (+, -, * o /) esté rodeada de espacios para que sea reconocida correctamente por la calculadora.
 
-De manera opcional puedes hacer que el script `find.js` no solo muestre los números en consola si no que genere un nuevo archivo `.txt` con solo los números pares
+4. Pruebas y depuración
+- Realiza pruebas exhaustivas para garantizar que la calculadora funcione correctamente en diferentes escenarios.
+- Utiliza mensajes de consola para proporcionar retroalimentación durante el desarrollo y la depuración del código.
+
+5. Documentación y entrega.
+
+- Documenta el proyecto de manera clara y concisa en el archivo **`README.md`**, incluyendo información sobre cómo instalar, configurar y utilizar la calculadora.
+- Empaqueta el proyecto y entrégalo según las instrucciones proporcionadas por el instructor.
+
+### Observaciones importantes
+
+- Prioriza la simplicidad y la funcionalidad básica de la calculadora.
+- Asegúrate de que la calculadora maneje correctamente los casos de números inválidos o divisiones por cero.
+- Utiliza mensajes de consola claros y amigables para proporcionar instrucciones y resultados durante la ejecución del script.
+
+Esta tarea te proporcionará una oportunidad para aplicar y reforzar los conceptos básicos de programación en Node.js mientras desarrollas una aplicación práctica y funcional. ¡Espero que la disfrutes!
