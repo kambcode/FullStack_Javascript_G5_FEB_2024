@@ -80,4 +80,4 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 - 17/06/2024 Backend - Repaso JS - https://youtu.be/xqOBNICWG9A
 - 19/06/2024 Backend - Estructuras JS, Intro. Node.js, Nodemon, NVM - https://youtu.be/mpUsg3u_p8M
 - 21/06/2024 Backend - Node.js, npm, dependencies, intro. Async - https://youtu.be/hI60FuzbTP0
-- 24/06/2024 Backend - Node.js, npm, Async, Await, Intro. FS - --
+- 24/06/2024 Backend - Node.js, npm, Async, Await, Intro. FS - https://youtu.be/8mlfLN_PK3c
