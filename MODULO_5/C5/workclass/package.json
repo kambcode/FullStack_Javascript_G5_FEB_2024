@@ -7,12 +7,18 @@
     "start": "node index.js",
     "dev": "nodemon index.js"
   },
-  "keywords": ["api", "service", "backend", "microservice"],
+  "keywords": [
+    "api",
+    "service",
+    "backend",
+    "microservice"
+  ],
   "author": "Jose Trespalacios",
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "express": "^4.19.2"
+    "express": "^4.19.2",
+    "fs": "^0.0.1-security"
   },
   "devDependencies": {
     "nodemon": "^3.1.4"
