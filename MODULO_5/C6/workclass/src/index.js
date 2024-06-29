@@ -1,0 +1,1 @@
+console.log('Este es nuestro archivo de entrada a la aplicación');
