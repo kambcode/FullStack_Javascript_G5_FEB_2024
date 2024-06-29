@@ -4,12 +4,14 @@
   "description": "API Basic C6, Kambcode.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js"
   },
   "keywords": [
     "API",
     "Service",
-    "HTTP"
+    "HTTP",
+    "nodejs"
   ],
   "author": "Jose Trespalacios",
   "license": "ISC",
