@@ -1,0 +1,16 @@
+{
+  "name": "api-rest-basic",
+  "version": "1.1.2",
+  "description": "API Basic C6, Kambcode.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "API",
+    "Service",
+    "HTTP"
+  ],
+  "author": "Jose Trespalacios",
+  "license": "ISC"
+}
