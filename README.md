@@ -83,4 +83,4 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 - 24/06/2024 Backend - Node.js, npm, Async, Await, Intro. FS - https://youtu.be/8mlfLN_PK3c
 - 26/06/2024 Backend - Node.js, npm, FileSystem, Express - https://youtu.be/MvEz7CCt6MI
 - 28/06/2024 Backend - Node.js, npm. FS, Express, Intro. HTTP - https://youtu.be/K_JhNqW840Q
-- 08/07/2024 Backend - Node.js, npm. Express, API con Express - 
+- 08/07/2024 Backend - Node.js, npm. Express, API con Express - https://youtu.be/l_UjAAvqtcQ
