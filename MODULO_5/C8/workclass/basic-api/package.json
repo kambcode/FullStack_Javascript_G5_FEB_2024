@@ -2,13 +2,14 @@
   "name": "basic-api",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Jose Luis Trespalacios",
   "license": "ISC",
-  "description": "",
+  "description": "Solucion tarea C6, API Basica con http.",
   "dependencies": {
     "http": "^0.0.1-security"
   }
