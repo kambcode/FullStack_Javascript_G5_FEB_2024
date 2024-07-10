@@ -11,6 +11,7 @@
   "license": "ISC",
   "description": "Solucion tarea C6, API Basica con http.",
   "dependencies": {
-    "http": "^0.0.1-security"
+    "http": "^0.0.1-security",
+    "nodemon": "^3.1.4"
   }
 }
