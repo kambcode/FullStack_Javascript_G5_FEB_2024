@@ -84,4 +84,4 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 - 26/06/2024 Backend - Node.js, npm, FileSystem, Express - https://youtu.be/MvEz7CCt6MI
 - 28/06/2024 Backend - Node.js, npm. FS, Express, Intro. HTTP - https://youtu.be/K_JhNqW840Q
 - 08/07/2024 Backend - Node.js, npm. Express, API con Express - https://youtu.be/l_UjAAvqtcQ
-- 09/07/2024 Backend - Node.js, API con Express, Postman, verbos HTTP - 
+- 09/07/2024 Backend - Node.js, API con Express, Postman - https://youtu.be/EwTJZkRnqrQ
