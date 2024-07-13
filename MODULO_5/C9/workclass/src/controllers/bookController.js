@@ -40,15 +40,3 @@ export const deleteBook = (req, res) => {
       res.status(404).json({ message: 'Book not found' });
     }
 };
-
-export const updateBook = (req, res) => {
-    const { id } = req.params;
-    const { title, author } = req.body;
-    const bookIndex = books.findIndex(book => book.id === parseInt(id));
-    if (bookIndex !== -1) {
-      books[bookIndex] = { id: parseInt(id), title, author };
-      res.json(books[bookIndex]);
-    } else {
-      res.status(404).json({ message: 'Book not found' });
-    }
-};
