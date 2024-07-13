@@ -1,7 +1,15 @@
 let books = [
     { id: 1, title: '1984', author: 'George Orwell' },
     { id: 2, title: 'To Kill a Mockingbird', author: 'Harper Lee' },
+    { id: 3, title: 'Nemesis', author: 'Darwin Nuñez' },
 ];
+
+export const createBook = (req, res) => {
+    const { title, author } = req.body;
+    const newBook = { id: books.length + 1, title, author};
+    books.push(newBook);
+    res.status(201).json(newBook);
+};
 
 export const getBooks = (req, res) => {
     const { title } = req.query;
