@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "name": "Frijoles",
+    "price": 10.99,
+    "category": "Perecederos",
+    "stock": 100,
+    "description": "Frijor Cargamanto"
+  },
+  {
+    "id": 2,
+    "name": "Azucar",
+    "price": 10.99,
+    "category": "Perecederos",
+    "stock": 100,
+    "description": "Azucar Rio Paila"
+  }
+]
