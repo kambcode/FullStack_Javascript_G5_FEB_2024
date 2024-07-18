@@ -87,3 +87,4 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 - 09/07/2024 Backend - Node.js, API con Express, Postman - https://youtu.be/EwTJZkRnqrQ
 - 12/07/2024 Backend - Node.js, API con Express, dotenv, Query Params, Body Params - https://youtu.be/wbf4LeZba30
 - 15/07/2024 Backend - Node.js, API RestFul, Middleware, Auth, Body Params - https://youtu.be/Pax1rFM4ufE
+- 15/07/2024 Backend - Node.js, API RestFul, Dudas, Repaso general - https://youtu.be/s7YhE54srH4
