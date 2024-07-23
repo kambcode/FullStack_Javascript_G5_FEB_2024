@@ -88,3 +88,6 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 - 12/07/2024 Backend - Node.js, API con Express, dotenv, Query Params, Body Params - https://youtu.be/wbf4LeZba30
 - 15/07/2024 Backend - Node.js, API RestFul, Middleware, Auth, Body Params - https://youtu.be/Pax1rFM4ufE
 - 15/07/2024 Backend - Node.js, API RestFul, Dudas, Repaso general - https://youtu.be/s7YhE54srH4
+
+# Modulo 6
+- 22/07/2024 Bases de Datos → Intr. Bases de Datos, Bases de Datos Relacionales, Modelos ER - https://youtu.be/705v1k7M55c
