@@ -92,3 +92,4 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 # Modulo 6
 - 22/07/2024 Bases de Datos → Intr. Bases de Datos, Bases de Datos Relacionales, Modelos ER - https://youtu.be/705v1k7M55c
 - 24/07/2024 Bases de Datos → Bases de datos → Bases de Datos Relacionales, MER, tablas pivote ER - https://youtu.be/AAH8diZ3yDU
+- 26/07/2024 Bases de Datos → Bases de Datos → Tablas, Llaves Foráneas y Primarias, Sentencias, Tablas pivote - https://youtu.be/ZAdJ7PTszD8
