@@ -67,3 +67,67 @@ VALUES
 ('Patricia Jiménez', 'patricia.jimenez@gmail.com', '3384526985'),
 ('Javier Cruz', 'javier.cruz@gmail.com', '3394526985');
 
+SELECT telefono, correo FROM clientes WHERE id=21 OR id=22 OR id=1;
+
+INSERT INTO pedidos (cliente_id , total)
+VALUES (1, 5.000),
+	   (2, 30.000);
+
+INSERT INTO pedidos (cliente_id, total)
+VALUES 
+(3, 15.000),
+(4, 22.500),
+(5, 12.000),
+(6, 45.000),
+(7, 18.750),
+(8, 27.000),
+(9, 35.500),
+(10, 40.000),
+(11, 50.000),
+(12, 23.750),
+(13, 19.000),
+(14, 28.500),
+(15, 33.000),
+(16, 24.000),
+(17, 21.500),
+(18, 37.750),
+(19, 26.000),
+(20, 31.250),
+(1, 16.500),  -- Añadiendo un pedido adicional para el cliente_id 1
+(2, 10.000);  -- Añadiendo un pedido adicional para el cliente_id 2
+
+SELECT cliente_id, total FROM pedidos WHERE cliente_id=1;
+
+INSERT INTO productos (nombre, precio, stock)
+VALUES ('Manzana', 0.50, 100),
+       ('Leche', 1.20, 50),
+       ('Pan', 1.00, 30);
+
+
+INSERT INTO detalles_pedido (pedido_id, producto_id, cantidad, precio)
+VALUES (1, 1, 4, 0.50),
+       (1, 2, 2, 1.20),
+       (2, 3, 3, 1.00);
+
+INSERT INTO categorias (nombre)
+VALUES ('Frutas'),
+       ('Lácteos'),
+       ('Panadería');
+
+INSERT INTO productos_categorias (producto_id, categoria_id)
+VALUES (1, 1),
+       (2, 2),
+       (3, 3);
+
+SELECT * FROM pedidos WHERE cliente_id=1;
+
+UPDATE clientes
+SET telefono = '11225589648'
+WHERE correo = 'maria.rodriguez@gmail.com'
+
+SELECT * FROM clientes WHERE correo= 'maria.rodriguez@gmail.com'
+
+SELECT * FROM productos WHERE nombre = 'Pan';
+	
+DELETE FROM productos
+WHERE nombre = 'Pan';
