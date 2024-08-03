@@ -94,5 +94,5 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 - 24/07/2024 Bases de Datos → Bases de datos → Bases de Datos Relacionales, MER, tablas pivote ER - https://youtu.be/AAH8diZ3yDU
 - 26/07/2024 Bases de Datos → Bases de Datos → Tablas, Llaves Foráneas y Primarias, Sentencias, Tablas pivote - https://youtu.be/ZAdJ7PTszD8
 - 29/07/2024 Bases de Datos → Tablas, Llaves Foráneas y Primarias, Sentencias, tablas pivote - https://youtu.be/9hN8_TS35cc
-
 - 31/07/2024 Bases de Datos → Tablas, Sentencias SQL, Select, Update, Delete, Consultas anidadas, Joins, Group By - https://youtu.be/bGebY0OnxfM
+- 02/08/2024 Bases de Datos → Sentencias SQL, Consultas anidadas, Joins, Group By, Repaso Express - https://youtu.be/KkzjUQ4GxgY
