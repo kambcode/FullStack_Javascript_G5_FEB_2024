@@ -5,6 +5,42 @@ FROM cursos
 JOIN inscripciones ON cursos.id = inscripciones.curso_id
 GROUP BY cursos.nombre;
 
+SELECT nombre, edad
+FROM estudiantes
+ORDER BY edad DESC;
+
+SELECT nombre
+FROM cursos
+ORDER BY nombre ASC;
+
+SELECT nombre
+FROM cursos
+WHERE activo = TRUE
+ORDER BY nombre ASC
+LIMIT 3;
+
+SELECT nombre, salario
+FROM empleados
+ORDER BY salario DESC
+LIMIT 5 OFFSET 10;
+
+INSERT INTO estudiantes (nombre, edad, correo)
+VALUES 
+    ('Juan Pérez', 21, 'juan.perez@example.com'),
+    ('María López', 25, 'maria.lopez@example.com'),
+    ('Carlos García', 30, 'carlos.garcia@example.com'),
+    ('Ana Torres', 22, 'ana.torres@example.com'),
+    ('Luis Ramírez', 28, 'luis.ramirez@example.com'),
+    ('Elena Fernández', 24, 'elena.fernandez@example.com'),
+    ('Miguel Martínez', 27, 'miguel.martinez@example.com'),
+    ('Sofía Jiménez', 26, 'sofia.jimenez@example.com'),
+    ('Pedro Sánchez', 23, 'pedro.sanchez@example.com'),
+    ('Laura Ruiz', 29, 'laura.ruiz@example.com'),
+    ('Andrés Gómez', 31, 'andres.gomez@example.com'),
+    ('Paula Herrera', 20, 'paula.herrera@example.com'),
+    ('Ricardo Castillo', 32, 'ricardo.castillo@example.com'),
+    ('Lucía Morales', 22, 'lucia.morales@example.com'),
+    ('Tomás Díaz', 26, 'tomas.diaz@example.com');
 
 INSERT INTO inscripciones (estudiante_id, curso_id)
 VALUES (1, 1),
