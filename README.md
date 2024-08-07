@@ -96,3 +96,5 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 - 29/07/2024 Bases de Datos → Tablas, Llaves Foráneas y Primarias, Sentencias, tablas pivote - https://youtu.be/9hN8_TS35cc
 - 31/07/2024 Bases de Datos → Tablas, Sentencias SQL, Select, Update, Delete, Consultas anidadas, Joins, Group By - https://youtu.be/bGebY0OnxfM
 - 02/08/2024 Bases de Datos → Sentencias SQL, Consultas anidadas, Joins, Group By, Repaso Express - https://youtu.be/KkzjUQ4GxgY
+- 02/08/2024 Bases de Datos → Sentencias SQL, Consultas anidadas, Joins, Group By, Repaso Express - https://youtu.be/KkzjUQ4GxgY
+- 06/08/2024 Bases de Datos → Repaso Express, Limit and Ofsset, ORM, QueryBuilder, Sequelize, Express -  https://youtu.be/vtRLPP5yeVA
