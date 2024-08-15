@@ -99,4 +99,5 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 - 02/08/2024 Bases de Datos → Sentencias SQL, Consultas anidadas, Joins, Group By, Repaso Express - https://youtu.be/KkzjUQ4GxgY
 - 06/08/2024 Bases de Datos → Repaso Express, Limit and Ofsset, ORM, QueryBuilder, Sequelize, Express -  https://youtu.be/vtRLPP5yeVA
 - 09/08/2024 Bases de Datos → Express, ORM, QueryBuilder, Sequelize, Etapa 1, Proyecto Final -  https://youtu.be/RYIFiMxZe9U
-- 12/08/2024 Bases de Datos → Express, ORM, QueryBuilder, Sequelize, Etapa 2, Proyecto Final, CRUD - https://youtu.be/PsS57zxvAZg 
+- 12/08/2024 Bases de Datos → Express, ORM, QueryBuilder, Sequelize, Etapa 2, Proyecto Final, CRUD - https://youtu.be/PsS57zxvAZg
+- 14/08/2024 Bases de Datos → Express, ORM, QueryBuilder, Sequelize, Etapa 3, Proyecto Final, CRUD - https://youtu.be/jKZ_PeZhbHI
