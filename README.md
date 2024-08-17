@@ -101,3 +101,4 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 - 09/08/2024 Bases de Datos → Express, ORM, QueryBuilder, Sequelize, Etapa 1, Proyecto Final -  https://youtu.be/RYIFiMxZe9U
 - 12/08/2024 Bases de Datos → Express, ORM, QueryBuilder, Sequelize, Etapa 2, Proyecto Final, CRUD - https://youtu.be/PsS57zxvAZg
 - 14/08/2024 Bases de Datos → Express, ORM, QueryBuilder, Sequelize, Etapa 3, Proyecto Final, CRUD - https://youtu.be/jKZ_PeZhbHI
+- 16/08/2024 Bases de Datos → Express, ORM, QueryBuilder, Sequelize, Etapa 4, Proyecto Final, CRUD - https://youtu.be/_MMc2k3naVU
